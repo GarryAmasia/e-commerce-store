@@ -1,0 +1,12 @@
+.main {
+  min-height: 80vh;
+}
+
+.reg-form form {
+  margin-top: 6rem;
+  padding: 2rem 7rem;
+  border-radius: 5px;
+  width: 400 px;
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: -5px 5px 5px rgb(150, 150, 150);
+}
