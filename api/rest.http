@@ -1,2 +1,19 @@
 ### live server test
 GET http://localhost:8000
+
+# ====== Admin registration and login ===========
+
+
+### Admin user registration
+POST http://localhost:8000/api/v1/register-login
+Content-Type: application/json
+
+{
+    "fName" : "celine",
+    "lName" : "diow",
+    "dob" : "2020-02-20",
+    "phone" : "04444",
+    "email" : "cel@yahoo.com",
+    "password" : "asd123",
+    "address" : "australia"
+}
